@@ -7,6 +7,7 @@ using System.Linq;
 using System.Text;
 using System.Threading.Tasks;
 using System.Windows.Forms;
+using Controle;
 using Entidade;
 
 namespace ControleProblemasView
@@ -21,12 +22,18 @@ namespace ControleProblemasView
         private void btnSalvarnivel_Click(object sender, EventArgs e)
         {
             Nivel nivel = new Nivel();
-            nivel.Id = Convert.ToInt32(txtIDnivel.Text);
             nivel.Descricao = txtDescricaonivel.Text;
 
-            FrmPrincipal.lstNivel.Add(nivel);
+            // FrmPrincipal.lstNivel.Add(nivel);
 
-            MessageBox.Show("Nivel salvo:"+ nivel);
+            if (new NivelDB().insert(nivel))
+            {
+                MessageBox.Show("Registro inserido");
+            }
+            else
+            {
+                MessageBox.Show("Erro ao inserir registro");
+            }
             Dispose();
         }
     }

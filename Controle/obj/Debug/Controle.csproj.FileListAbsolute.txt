@@ -1,10 +1,10 @@
 C:\Projetos.Net\ControleDeProblemas\Controle\bin\Debug\Controle.dll
 C:\Projetos.Net\ControleDeProblemas\Controle\bin\Debug\Controle.pdb
 C:\Projetos.Net\ControleDeProblemas\Controle\bin\Debug\Entidade.dll
+C:\Projetos.Net\ControleDeProblemas\Controle\bin\Debug\MySql.Data.dll
 C:\Projetos.Net\ControleDeProblemas\Controle\bin\Debug\Entidade.pdb
+C:\Projetos.Net\ControleDeProblemas\Controle\bin\Debug\MySql.Data.xml
 C:\Projetos.Net\ControleDeProblemas\Controle\obj\Debug\Controle.csprojResolveAssemblyReference.cache
 C:\Projetos.Net\ControleDeProblemas\Controle\obj\Debug\Controle.csproj.CoreCompileInputs.cache
 C:\Projetos.Net\ControleDeProblemas\Controle\obj\Debug\Controle.dll
 C:\Projetos.Net\ControleDeProblemas\Controle\obj\Debug\Controle.pdb
-C:\Projetos.Net\ControleDeProblemas\Controle\bin\Debug\MySql.Data.dll
-C:\Projetos.Net\ControleDeProblemas\Controle\bin\Debug\MySql.Data.xml

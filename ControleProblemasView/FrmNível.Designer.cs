@@ -30,8 +30,6 @@
         {
             this.lblDescricao = new System.Windows.Forms.Label();
             this.txtDescricaonivel = new System.Windows.Forms.TextBox();
-            this.lblID = new System.Windows.Forms.Label();
-            this.txtIDnivel = new System.Windows.Forms.TextBox();
             this.btnSalvarnivel = new System.Windows.Forms.Button();
             this.SuspendLayout();
             // 
@@ -51,22 +49,6 @@
             this.txtDescricaonivel.Size = new System.Drawing.Size(210, 20);
             this.txtDescricaonivel.TabIndex = 8;
             // 
-            // lblID
-            // 
-            this.lblID.AutoSize = true;
-            this.lblID.Location = new System.Drawing.Point(36, 56);
-            this.lblID.Name = "lblID";
-            this.lblID.Size = new System.Drawing.Size(18, 13);
-            this.lblID.TabIndex = 7;
-            this.lblID.Text = "ID";
-            // 
-            // txtIDnivel
-            // 
-            this.txtIDnivel.Location = new System.Drawing.Point(39, 72);
-            this.txtIDnivel.Name = "txtIDnivel";
-            this.txtIDnivel.Size = new System.Drawing.Size(210, 20);
-            this.txtIDnivel.TabIndex = 6;
-            // 
             // btnSalvarnivel
             // 
             this.btnSalvarnivel.Location = new System.Drawing.Point(174, 182);
@@ -84,8 +66,6 @@
             this.ClientSize = new System.Drawing.Size(284, 261);
             this.Controls.Add(this.lblDescricao);
             this.Controls.Add(this.txtDescricaonivel);
-            this.Controls.Add(this.lblID);
-            this.Controls.Add(this.txtIDnivel);
             this.Controls.Add(this.btnSalvarnivel);
             this.MaximizeBox = false;
             this.MinimizeBox = false;
@@ -101,8 +81,6 @@
 
         private System.Windows.Forms.Label lblDescricao;
         private System.Windows.Forms.TextBox txtDescricaonivel;
-        private System.Windows.Forms.Label lblID;
-        private System.Windows.Forms.TextBox txtIDnivel;
         private System.Windows.Forms.Button btnSalvarnivel;
     }
 }

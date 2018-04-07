@@ -1,6 +1,5 @@
 ﻿using System;
 using System.Collections.Generic;
-using System.Configuration;
 using System.Data;
 using System.Data.SqlClient;
 using System.Linq;
@@ -17,7 +16,7 @@ namespace Controle
 
         public DB()
         {
-            conexao = new SqlConnection(ConfigurationManager.ConnectionStrings["ConexaoSQLServer"].ConnectionString); //vai procurar no arquivo  pp. config do proejto windows form 
+            conexao = new SqlConnection(System.Configuration.ConfigurationManager.ConnectionStrings["ConexaoSQLServer"].ConnectionString);
             conexao.Open();
         }
 

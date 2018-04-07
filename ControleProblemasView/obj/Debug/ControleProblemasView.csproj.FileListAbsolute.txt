@@ -18,8 +18,10 @@ C:\Projetos.Net\ControleDeProblemas\ControleProblemasView\bin\Debug\ControleProb
 C:\Projetos.Net\ControleDeProblemas\ControleProblemasView\bin\Debug\ControleProblemasView.pdb
 C:\Projetos.Net\ControleDeProblemas\ControleProblemasView\bin\Debug\Controle.dll
 C:\Projetos.Net\ControleDeProblemas\ControleProblemasView\bin\Debug\Entidade.dll
+C:\Projetos.Net\ControleDeProblemas\ControleProblemasView\bin\Debug\MySql.Data.dll
 C:\Projetos.Net\ControleDeProblemas\ControleProblemasView\bin\Debug\Controle.pdb
 C:\Projetos.Net\ControleDeProblemas\ControleProblemasView\bin\Debug\Entidade.pdb
+C:\Projetos.Net\ControleDeProblemas\ControleProblemasView\bin\Debug\MySql.Data.xml
 C:\Projetos.Net\ControleDeProblemas\ControleProblemasView\obj\Debug\ControleProblemasView.csprojResolveAssemblyReference.cache
 C:\Projetos.Net\ControleDeProblemas\ControleProblemasView\obj\Debug\ControleProblemasView.FrmNível.resources
 C:\Projetos.Net\ControleDeProblemas\ControleProblemasView\obj\Debug\ControleProblemasView.FrmPrincipal.resources
@@ -30,5 +32,3 @@ C:\Projetos.Net\ControleDeProblemas\ControleProblemasView\obj\Debug\ControleProb
 C:\Projetos.Net\ControleDeProblemas\ControleProblemasView\obj\Debug\ControleProblemasView.csproj.CoreCompileInputs.cache
 C:\Projetos.Net\ControleDeProblemas\ControleProblemasView\obj\Debug\ControleProblemasView.exe
 C:\Projetos.Net\ControleDeProblemas\ControleProblemasView\obj\Debug\ControleProblemasView.pdb
-C:\Projetos.Net\ControleDeProblemas\ControleProblemasView\bin\Debug\MySql.Data.dll
-C:\Projetos.Net\ControleDeProblemas\ControleProblemasView\bin\Debug\MySql.Data.xml

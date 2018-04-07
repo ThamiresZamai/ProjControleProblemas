@@ -19,8 +19,7 @@ namespace Entidade
 
         public override string ToString()
         {
-            return "Id: " + this.Id + 
-                 "\nDescrição: " + this.Descricao +
+            return "\nDescrição: " + this.Descricao +
                  "\nTipo: " + this.Tipo.Descricao +
                  "\nNivel: " 
                  + this.NivelDificuldade.Descricao;

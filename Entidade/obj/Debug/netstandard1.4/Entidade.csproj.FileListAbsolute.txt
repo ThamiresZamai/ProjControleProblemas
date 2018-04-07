@@ -18,9 +18,9 @@ C:\Users\Thamires\Desktop\ControleDeProblemas\Entidade\obj\Debug\netstandard1.4\
 C:\Projetos.Net\ControleDeProblemas\Entidade\bin\Debug\netstandard1.4\Entidade.deps.json
 C:\Projetos.Net\ControleDeProblemas\Entidade\bin\Debug\netstandard1.4\Entidade.dll
 C:\Projetos.Net\ControleDeProblemas\Entidade\bin\Debug\netstandard1.4\Entidade.pdb
-C:\Projetos.Net\ControleDeProblemas\Entidade\obj\Debug\netstandard1.4\Entidade.csprojResolveAssemblyReference.cache
 C:\Projetos.Net\ControleDeProblemas\Entidade\obj\Debug\netstandard1.4\Entidade.csproj.CoreCompileInputs.cache
 C:\Projetos.Net\ControleDeProblemas\Entidade\obj\Debug\netstandard1.4\Entidade.AssemblyInfoInputs.cache
 C:\Projetos.Net\ControleDeProblemas\Entidade\obj\Debug\netstandard1.4\Entidade.AssemblyInfo.cs
 C:\Projetos.Net\ControleDeProblemas\Entidade\obj\Debug\netstandard1.4\Entidade.dll
 C:\Projetos.Net\ControleDeProblemas\Entidade\obj\Debug\netstandard1.4\Entidade.pdb
+C:\Projetos.Net\ControleDeProblemas\Entidade\obj\Debug\netstandard1.4\Entidade.csprojResolveAssemblyReference.cache

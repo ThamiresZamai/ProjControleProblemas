@@ -7,6 +7,7 @@ using System.Linq;
 using System.Text;
 using System.Threading.Tasks;
 using System.Windows.Forms;
+using Controle;
 using Entidade;
 
 namespace ControleProblemasView
@@ -14,24 +15,12 @@ namespace ControleProblemasView
     public partial class FrmPrincipal : Form
     {
 
-        public static List<Tipo> lstTipo { get; set; }
-        public static List<Nivel> lstNivel { get; set; }
-        public static List<Problema> lstProblema { get; set; }
+       
 
         public FrmPrincipal()
         {
             InitializeComponent();
 
-            if (lstTipo == null)
-                lstTipo = new List<Tipo>();
-
-            if (lstNivel == null)
-                lstNivel = new List<Nivel>();
-
-            if(lstProblema == null)
-            {
-                lstProblema = new List<Problema>();
-            }
         }
 
 
@@ -59,7 +48,21 @@ namespace ControleProblemasView
 
         private void carregaGrid()
         {
-            dataGridView1.DataSource = lstProblema;
+            dataGridView1.DataSource = new ProblemaDB().ListarProblema();
+        }
+
+        private void FrmPrincipal_Load(object sender, EventArgs e)
+        {
+            carregaGrid();
+            try
+            {
+                dataGridView1.Columns[0].Visible = false;
+            }
+            catch (Exception)
+            {
+
+                throw;
+            }
         }
     }
 }

@@ -30,8 +30,6 @@
         {
             this.lblDescricao = new System.Windows.Forms.Label();
             this.txtDescricao = new System.Windows.Forms.TextBox();
-            this.lblID = new System.Windows.Forms.Label();
-            this.txtID = new System.Windows.Forms.TextBox();
             this.btnSalvar = new System.Windows.Forms.Button();
             this.cbxTipo = new System.Windows.Forms.ComboBox();
             this.cbxNivel = new System.Windows.Forms.ComboBox();
@@ -56,22 +54,6 @@
             this.txtDescricao.Name = "txtDescricao";
             this.txtDescricao.Size = new System.Drawing.Size(210, 20);
             this.txtDescricao.TabIndex = 13;
-            // 
-            // lblID
-            // 
-            this.lblID.AutoSize = true;
-            this.lblID.Location = new System.Drawing.Point(36, 63);
-            this.lblID.Name = "lblID";
-            this.lblID.Size = new System.Drawing.Size(18, 13);
-            this.lblID.TabIndex = 12;
-            this.lblID.Text = "ID";
-            // 
-            // txtID
-            // 
-            this.txtID.Location = new System.Drawing.Point(39, 79);
-            this.txtID.Name = "txtID";
-            this.txtID.Size = new System.Drawing.Size(210, 20);
-            this.txtID.TabIndex = 11;
             // 
             // btnSalvar
             // 
@@ -101,7 +83,7 @@
             // 
             // txtDataCriacaoProblema
             // 
-            this.txtDataCriacaoProblema.Location = new System.Drawing.Point(39, 25);
+            this.txtDataCriacaoProblema.Location = new System.Drawing.Point(39, 65);
             this.txtDataCriacaoProblema.Name = "txtDataCriacaoProblema";
             this.txtDataCriacaoProblema.Size = new System.Drawing.Size(100, 20);
             this.txtDataCriacaoProblema.TabIndex = 17;
@@ -109,7 +91,7 @@
             // label1
             // 
             this.label1.AutoSize = true;
-            this.label1.Location = new System.Drawing.Point(36, 9);
+            this.label1.Location = new System.Drawing.Point(36, 49);
             this.label1.Name = "label1";
             this.label1.Size = new System.Drawing.Size(146, 13);
             this.label1.TabIndex = 18;
@@ -146,8 +128,6 @@
             this.Controls.Add(this.cbxTipo);
             this.Controls.Add(this.lblDescricao);
             this.Controls.Add(this.txtDescricao);
-            this.Controls.Add(this.lblID);
-            this.Controls.Add(this.txtID);
             this.Controls.Add(this.btnSalvar);
             this.Name = "FrmProblema";
             this.StartPosition = System.Windows.Forms.FormStartPosition.CenterScreen;
@@ -162,8 +142,6 @@
 
         private System.Windows.Forms.Label lblDescricao;
         private System.Windows.Forms.TextBox txtDescricao;
-        private System.Windows.Forms.Label lblID;
-        private System.Windows.Forms.TextBox txtID;
         private System.Windows.Forms.Button btnSalvar;
         private System.Windows.Forms.ComboBox cbxTipo;
         private System.Windows.Forms.ComboBox cbxNivel;

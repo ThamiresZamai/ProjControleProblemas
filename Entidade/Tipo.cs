@@ -13,7 +13,7 @@
         public override string ToString()
         {
 
-            return "ID:" + this.Id + "\nDescrição: " + this.Descricao;
+            return "\nDescrição: " + this.Descricao;
         }
     }
 
