@@ -49,6 +49,7 @@ namespace ControleProblemasView
         private void carregaGrid()
         {
             dataGridView1.DataSource = new ProblemaDB().ListarProblema();
+            
         }
 
         private void FrmPrincipal_Load(object sender, EventArgs e)
@@ -57,6 +58,7 @@ namespace ControleProblemasView
             try
             {
                 dataGridView1.Columns[0].Visible = false;
+                
             }
             catch (Exception)
             {

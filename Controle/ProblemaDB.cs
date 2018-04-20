@@ -16,14 +16,14 @@ namespace Controle
         {
             try
             {
-                string sql = "INSERT INTO TB_PROBLEMA (dttCriacao,descricao,fk_tipo,fk_nivel) VALUES ('" + problema.DataCriacao + "','" + problema.Descricao + "'," + problema.Tipo.Id + "," + problema.NivelDificuldade.Id + ")";
+                string sql = "INSERT INTO TB_PROBLEMA (dttCriacao,descricao,fk_tipo,fk_nivel) VALUES (Convert(datetime,'" + problema.DataCriacao + "',103),'" + problema.Descricao + "'," + problema.Tipo.Id + "," + problema.NivelDificuldade.Id + ")";
 
                 using (db = new DB())
                 {
                     db.ExecutarComando(sql);
                 }
             }
-            catch (Exception)
+            catch (Exception e)
             {
                 return false;
             }

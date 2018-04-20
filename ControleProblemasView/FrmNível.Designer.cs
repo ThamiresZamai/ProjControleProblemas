@@ -36,7 +36,7 @@
             // lblDescricao
             // 
             this.lblDescricao.AutoSize = true;
-            this.lblDescricao.Location = new System.Drawing.Point(36, 113);
+            this.lblDescricao.Location = new System.Drawing.Point(36, 48);
             this.lblDescricao.Name = "lblDescricao";
             this.lblDescricao.Size = new System.Drawing.Size(55, 13);
             this.lblDescricao.TabIndex = 9;
@@ -44,14 +44,14 @@
             // 
             // txtDescricaonivel
             // 
-            this.txtDescricaonivel.Location = new System.Drawing.Point(39, 129);
+            this.txtDescricaonivel.Location = new System.Drawing.Point(39, 64);
             this.txtDescricaonivel.Name = "txtDescricaonivel";
             this.txtDescricaonivel.Size = new System.Drawing.Size(210, 20);
             this.txtDescricaonivel.TabIndex = 8;
             // 
             // btnSalvarnivel
             // 
-            this.btnSalvarnivel.Location = new System.Drawing.Point(174, 182);
+            this.btnSalvarnivel.Location = new System.Drawing.Point(174, 117);
             this.btnSalvarnivel.Name = "btnSalvarnivel";
             this.btnSalvarnivel.Size = new System.Drawing.Size(75, 23);
             this.btnSalvarnivel.TabIndex = 5;
@@ -63,7 +63,7 @@
             // 
             this.AutoScaleDimensions = new System.Drawing.SizeF(6F, 13F);
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
-            this.ClientSize = new System.Drawing.Size(284, 261);
+            this.ClientSize = new System.Drawing.Size(284, 176);
             this.Controls.Add(this.lblDescricao);
             this.Controls.Add(this.txtDescricaonivel);
             this.Controls.Add(this.btnSalvarnivel);
